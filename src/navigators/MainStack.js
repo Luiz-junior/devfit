@@ -9,7 +9,8 @@ const MainStack = createStackNavigator({
   Preload,
   StarterStack,
   /* 
-  AppTab, */
+  AppTab, 
+  */
 }, {
   defaultNavigationOptions: {
     header: null

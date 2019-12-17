@@ -36,7 +36,7 @@ const ButtonText = styled.Text`
 const StarterIntro = props => {
 
   const onStart = () => {
-    props.navigation.navigate('StartedName');
+    props.navigation.navigate('StarterName');
   };
 
   return (
