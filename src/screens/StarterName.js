@@ -35,7 +35,7 @@ const StarterName = props => {
 
   const nextAction = () => {
     if(!props.name) {
-      alert('Por favor informe um nome!');
+      alert('Por favor informe um nome.');
       return;
     };
       
@@ -65,7 +65,7 @@ StarterName.navigationOptions = ({ navigation }) => {
 
   const nextAction = () => {
     if(!navigation.state.params || !navigation.state.params.name) {
-      alert('Por favor informe um nome!');
+      alert('Por favor informe um nome.');
       return;
     }
 

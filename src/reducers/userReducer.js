@@ -2,7 +2,7 @@
 const initialState = {
   name: '',
   level: '', // beginner, intermediate, advanced
-  workoutDays: [],
+  workoutDays: [], // 0 a 5
   myWorkouts: [],
   lastWorkout: '', // ID
   dailyProgress: ['2019-12-13', '2019-12,12']
