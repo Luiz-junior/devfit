@@ -12,6 +12,8 @@ export default (state = initialState, action) => {
   switch (action.type) {
     case 'SET_NAME':
       return {...state, name: action.payload.name}
+    case 'SET_WORKOUT_DAYS':
+      return {...state, workoutDays: action.payload.workoutDays }
     default:
       return state;   
   }
